@@ -1,0 +1,28 @@
+# Build artifacts
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# macOS specific
+*.dSYM/
+*.app
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled output
+mylang
+mylang.exe
+
+# Test files
+test_*.txt
+*.log
